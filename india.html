@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>भारत - My News Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Noto Sans Devanagari', sans-serif; background: #fff; color: #111; }
+    header { background: #d50000; color: white; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; }
+    header h1 { margin: 0; font-size: 24px; font-weight: 700; }
+    nav a { color: white; margin-left: 20px; text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    .container { max-width: 1100px; margin: 20px auto; padding: 0 15px; }
+    h2 { color: #d50000; margin-bottom: 15px; }
+    .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .news-card { border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; }
+    .news-card img { width: 100%; height: 180px; object-fit: cover; }
+    .news-card h3 { margin: 10px; font-size: 18px; color: #111; }
+    .news-card p { margin: 0 10px 10px; font-size: 14px; color: #444; }
+    footer { background: #222; color: #ddd; padding: 20px; text-align: center; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><a href="index.html" style="color:white; text-decoration:none;">My News Portal</a></h1>
+    <nav>
+      <a href="index.html">होम</a>
+      <a href="india.html">भारत</a>
+      <a href="world.html">दुनिया</a>
+      <a href="sports.html">खेल</a>
+      <a href="tech.html">टेक</a>
+      <a href="contact.html">संपर्क</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>भारत की ताज़ा खबरें</h2>
+    <div class="news-grid">
+      <div class="news-card">
+        <img src="https://via.placeholder.com/400x250" alt="News">
+        <h3>दिल्ली में प्रदूषण खतरनाक स्तर पर</h3>
+        <p>सरकार ने प्रदूषण पर काबू पाने के लिए आपात बैठक बुलाई।</p>
+      </div>
+      <div class="news-card">
+        <img src="https://via.placeholder.com/400x250" alt="News">
+        <h3>रेलवे ने नई सुविधाएँ शुरू कीं</h3>
+        <p>टिकटिंग अब होगी और भी आसान, वाई-फाई सेवा भी उपलब्ध।</p>
+      </div>
+      <div class="news-card">
+        <img src="https://via.placeholder.com/400x250" alt="News">
+        <h3>गाँव-गाँव तक पहुँचा 5G</h3>
+        <p>सरकार का दावा – अगले साल तक पूरे देश में हाई-स्पीड इंटरनेट।</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 My News Portal. Powered by GitHub Pages.</p>
+  </footer>
+
+</body>
+</html>
